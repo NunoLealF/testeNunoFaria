@@ -1,0 +1,14 @@
+[Base de dados "testeNunoFaria" - *tem de ser feito a ligação usando o MySQL (neste caso, eu estou a usar o XAMPP)*]
+
+[Tabela "produtos"]
+[Nome | tipo SQL | tipo HTML]
+
+-> "Codigo" | INT(11) ou BIGINT(20); chave primária e auto-increment | type="number" min="1" required
+-> "Nome" | VARCHAR(100) | type="text" minlength="1" maxlength="100" required
+-> "Categoria" | VARCHAR(40) | type="text" minlength="1" maxlength="40" required
+-> "Preco" | DECIMAL(9,2) | type="number" min="0" max="999999999.99" step="0.01" required
+-> "Descricao" | TEXT(500) | *textarea*; maxlength="500"
+
+
+
+
